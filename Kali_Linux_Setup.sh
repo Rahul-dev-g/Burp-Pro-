@@ -1,11 +1,13 @@
 #!/bin/bash
 
-echo "              ▄▄▄▄   ▄▄▄▄▄▄ ▄    ▄ ▄▄▄▄     ▄▄    ▄▄▄▄ 
+echo "                                          
+                    ▄▄▄▄   ▄▄▄▄▄▄ ▄    ▄ ▄▄▄▄     ▄▄    ▄▄▄▄ 
                     █   ▀▄ █      ▀▄  ▄▀ █   ▀▄   ██   █▀   ▀
                     █    █ █▄▄▄▄▄  █  █  █    █  █  █  ▀█▄▄▄ 
                     █    █ █       ▀▄▄▀  █    █  █▄▄█      ▀█
-                    █▄▄▄▀  █▄▄▄▄▄   ██   █▄▄▄▀  █    █ ▀▄▄▄█▀"
-
+                    █▄▄▄▀  █▄▄▄▄▄   ██   █▄▄▄▀  █    █ ▀▄▄▄█▀
+                                                             
+"
 if [[ $EUID -eq 0 ]]; then
     # Download Burp Suite Profesional Latet Version
     echo 'Downloading Burp Suite Professional ....'
