@@ -1,6 +1,7 @@
 
 -----------------------------------------------------------------------------------------------------------------
 # Burp Suite Professional Installation steps for Kali-Linux 
+	--> Give Primission Frist chmod +x Kali_Linux_Setup.sh
 	--> Execute Kali_Linux_Setup.sh file as root user
 
 -----------------------------------------------------------------------------------------------------------------
